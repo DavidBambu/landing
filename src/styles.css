@@ -6,3 +6,34 @@ body{
     background-image: url('assets/img/fondo-landing.jpg');
     background-size: cover;
 }
+@font-face {
+    font-family: oxigenRegular;
+    src: url(assets/Oxygen/Oxygen-Regular.ttf);
+}
+
+@font-face {
+    font-family: oxigenBold;
+    src: url(assets/Oxygen/Oxygen-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: muliRegular;
+    src: url(assets/Muli/Muli-Regular.ttf);
+}
+
+@font-face {
+    font-family: muliBold;
+    src: url(assets/Muli/Muli-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: muliSemi;
+    src: url(assets/Muli/Muli-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: muliItalic;
+    src: url(assets/Muli/Muli-Italic.ttf);
+}
