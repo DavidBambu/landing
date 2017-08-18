@@ -3,5 +3,6 @@ body{
     margin: 0;
 }
 .fondo{
-    background-image: url('assets/img/fondo-landing.jpg') no-repeat;
+    background-image: url('assets/img/fondo-landing.jpg');
+    background-size: cover;
 }
