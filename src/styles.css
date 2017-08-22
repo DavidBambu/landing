@@ -4,7 +4,16 @@ body{
 }
 .fondo{
     background-image: url('assets/img/fondo-landing.jpg');
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
     background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    min-width: 100%;
 }
 @font-face {
     font-family: oxigenRegular;
@@ -36,4 +45,48 @@ body{
 @font-face {
     font-family: muliItalic;
     src: url(assets/Muli/Muli-Italic.ttf);
+}
+
+
+.soy-proovedor{
+    width: 100%;
+    height: 16.4%;
+    display: flex;
+}
+
+.imagen-p{
+    width: 50%;
+    background-image: url('assets/img/hover_proveedor.jpg'); 
+    background-size: cover;
+}
+
+.soy_p{    
+    background-color: #e6f7f8;
+    color: #666666;
+    width: 50%;
+}
+div.soy_p:hover{
+    color: #fafafe;  
+    background-color: rgba(157, 155, 229, 0.63);    
+}
+.soy-proovedor:hover ~ .soy_p{
+    color: #fafafe;  
+    background-color: rgba(157, 155, 229, 0.63);  
+}
+
+.soy-proovedor:hover ~ .imagen-p{
+    background-image: url('assets/img/fondo-landing.jpg') !important;     
+    background-size: cover;  
+}
+
+
+.soy_c{    
+    background-color: #fafafe;
+    color: #666666;    
+    width: 50%;
+}
+
+.soy_c:hover {    
+    color: #4d4d4d;
+    background-color: #a3e8f7;
 }

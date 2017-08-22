@@ -1,5 +1,9 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+.opacidad{
+    background-color: rgba(51, 51, 51, 0.6);
+}
+
 nav{
     display: flex;
     padding-top: 3%;
@@ -12,7 +16,7 @@ nav img{
 
 .login{
     display: flex !important;
-    justify-content: end !important;    
+    justify-content: flex-end !important;    
     width: 100%;
     padding-right: 3%;
 }
@@ -73,6 +77,7 @@ nav img{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .crece{
@@ -83,21 +88,20 @@ nav img{
 .proveedores{
     width: 100%;
     text-align: center;
-    background-color: #fafafe;
 }
 
 .crea{    
     width: 100%;
     text-align: center;
-    background-color: #e6f7f8; 
 }
+
 
 #soy{
     
-    font-family: Oxygen;
+    font-family: oxigenRegular;    
     font-size: 36px;
     text-align: center;
-    color: #666666;
+    margin: 12% 0 0 0;
 }
 
 .download{
@@ -120,10 +124,26 @@ nav img{
     display: flex;
     justify-content: space-around;
     width: 75%;
-} 
-
-.soy_p{
-    display: block !important;
-
-
 }
+
+
+
+
+.imagen-c{
+    width: 50%;
+}
+
+
+.soy-cliente{
+    width: 100%;
+    height: 16.4%;
+    display: flex;
+}
+
+#description{
+    font-family: muliRegular;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 24%;
+}
+
